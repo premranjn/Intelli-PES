@@ -1,0 +1,57 @@
+{
+  "image": {"height": 617, "width": 945},
+  "inference_id": "df37b890-6135-49f3-80d1-0cf87a0a08fe",
+  "predictions": [
+    {
+      "class": "brown_spot_disease",
+      "class_id": 16,
+      "confidence": 0.6909722089767456,
+      "detection_id": "ee5424aa-1d77-4975-bc68-538e035a070d",
+      "height": 122,
+      "width": 61,
+      "x": 249.5,
+      "y": 373
+    },
+    {
+      "class": "brown_spot_disease",
+      "class_id": 16,
+      "confidence": 0.6788597702980042,
+      "detection_id": "5014ceae-e70d-42be-864e-0cb8610b7f83",
+      "height": 137,
+      "width": 39,
+      "x": 195.5,
+      "y": 145.5
+    },
+    {
+      "class": "brown_spot_disease",
+      "class_id": 16,
+      "confidence": 0.5740702152252197,
+      "detection_id": "a96d64bf-2006-49ea-b92b-22b6daf6effd",
+      "height": 92,
+      "width": 43,
+      "x": 634.5,
+      "y": 202
+    },
+    {
+      "class": "brown_spot_disease",
+      "class_id": 16,
+      "confidence": 0.4671154022216797,
+      "detection_id": "5ba6ba10-ff87-44e7-9f9d-757324f38226",
+      "height": 97,
+      "width": 79,
+      "x": 389.5,
+      "y": 188.5
+    },
+    {
+      "class": "brown_spot_disease",
+      "class_id": 16,
+      "confidence": 0.4464552700519562,
+      "detection_id": "4a27c8b3-8981-4852-8289-5069a2e9bb47",
+      "height": 70,
+      "width": 41,
+      "x": 253.5,
+      "y": 582
+    }
+  ],
+  "time": 0.06664494399979048
+}
