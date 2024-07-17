@@ -8,7 +8,6 @@ import BoundingBox from '../components/BoundingBox';
 import ImageViewer from '../components/ImageViewer';
 import PickImageButton from '../components/PickImageButton';
 import ResetButton from '../components/ResetButton';
-import { useNavigation } from '@react-navigation/native'; // Import useNavigation hook
 
 
 const HomeScreen = () => {
@@ -64,7 +63,7 @@ const HomeScreen = () => {
         </View>
       )}
       <View style={styles.buttonContainer}>
-        <Button title="Send image to API" onPress={handleSendImage} />
+        <Button title="Analyse my crop" onPress={handleSendImage} />
       </View>
       <View style={styles.buttonContainer}>
         <ResetButton onPress={reset} />
@@ -79,7 +78,6 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    // padding: 20,
   },
   buttonContainer: {
     marginVertical: 10,
